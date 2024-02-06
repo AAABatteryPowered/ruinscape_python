@@ -1,0 +1,7 @@
+{"swords":[
+  { "name":"Backhand Dagger", "rarity":3, "lore":"Stab your enemies from behind their back", "damage": 20, "cooldown":0.5, "range": 50 },
+  { "name":"Backhand Longsword", "rarity":3, "lore":"Good luck concealing this behind your back!", "damage": 30, "cooldown":1, "range": 80 },
+  { "name":"Shattered Slabsword", "rarity": 2, "lore":"This sword hits like a brick!", "damage": 45, "cooldown": 2, "range": 70 },
+  { "name":"Moon Sickle", "rarity": 5, "lore": "Slice through your opponents with the smoothness of the moon", "damage": 90, "cooldown":0.4, "range": 60 },
+  { "name":"BONK™", "rarity": 4, "lore":"BONK™ is a certified masterpiece - CEO of BONK™ Studios", "damage": 200, "cooldown": 3.5, "range": 50}
+]}
