@@ -218,6 +218,7 @@ class YSortCameraGroup(pygame.sprite.Group):
         self.floor_surf = pygame.image.load('map/floor/spawn island.png').convert()
         self.floor_rect = self.floor_surf.get_rect(topleft = (0,0))
     def custom_draw(self,player):
+        #set offsets
         self.offset.x = player.rect.centerx - self.half_width
         self.offset.y = player.rect.centery - self.half_height
 
