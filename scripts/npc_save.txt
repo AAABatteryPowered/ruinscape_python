@@ -1,0 +1,26 @@
+        if self.questions[str(self.line)] != None:
+          self.question_line = True
+          offset = 0
+          for answer in self.questions[str(self.line)][0]:
+            btn_image = pygame.image.load('graphics/npcs/button.png').convert_alpha()
+            btn_rect = btn_image.get_rect(topleft=pygame.Vector2(offset,200))
+            pygame.display.get_surface().blit(btn_image,btn_rect)
+            self.font.render(pygame.display.get_surface(),answer,btn_rect.center)
+
+            mousepoint = pygame.mouse.get_pos()
+            mousepress = pygame.mouse.get_pressed()
+            if btn_rect.collidepoint(mousepoint):
+              if mousepress[0] == 1:
+                if self.questions[str(self.line)][0].index(answer) == self.questions[str(self.line)][1]:
+                  pass
+                  print('yes')
+                  #chose correctly
+                else:
+                  self.question_line = False
+                  self.response_line = True
+                  self.currenttext = 'Wrong! you are bsssssssssssssssssssssad!'
+                  self.char_counter = 0
+                  self.text_finished = False
+                  #chose wrong
+
+            offset += 120

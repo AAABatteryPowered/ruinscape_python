@@ -3,17 +3,67 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "floor/spawn island.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "floor/sand.tsx": {
+            "scaleInDock": 1
+        },
+        "floor/spawn island.tmx": {
+            "scale": 1,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 591,
+                "y": 549.5
+            }
+        },
+        "floor/tileset_saves/desert tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "floor/tileset_saves/dungeon.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "floor/tileset_saves/dungeon2.tsx": {
+            "scaleInDock": 1
+        },
+        "floor/tileset_saves/dungeon_use.tsx": {
+            "scaleInDock": 1
+        },
+        "floor/tileset_saves/dungeonmap.tmx": {
+            "scale": 1.6941666666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.92129857353666,
+                "y": 240.5312346286277
+            }
+        },
+        "floor/tileset_saves/entities.tsx": {
+            "scaleInDock": 1
+        },
+        "floor/tileset_saves/grass floorset.tsx": {
+            "scaleInDock": 1
+        },
+        "floor/tileset_saves/sand village.tsx": {
+            "scaleInDock": 1
+        },
+        "floor/tileset_saves/tree tileset.tsx": {
+            "scaleInDock": 1
+        }
     },
+    "map.lastUsedFormat": "tmx",
     "map.tileHeight": 64,
     "map.tileWidth": 64,
     "openFiles": [
+        "floor/spawn island.tmx",
+        "floor/tileset_saves/dungeonmap.tmx"
     ],
     "project": "spawn.tiled-project",
     "recentFiles": [
+        "floor/tileset_saves/dungeonmap.tmx",
+        "floor/spawn island.tmx",
+        "floor/tileset_saves/dungeon.tsx"
     ]
 }
