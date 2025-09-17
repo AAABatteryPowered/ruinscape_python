@@ -1,2 +1,4 @@
 # ruinscape
 this was a game i made in march 2024 for a game jam. The game, fully done in python with pygame, features a top down camera system, collisions, inventories, weapons, enemies and bosses, combat, and large worlds with lots and lots of textures and maps, all pixel art that i made myself. I even made a dialogue system for a sphynx that teleported you to a dungeon where you could fight mobs. Items could be picked up into your inventory and there was also a health system. Everything was also animated on (i think) 6fps. Also made some weird guis, one was like a map, but i experimented with smooth animations by making my own like keyframing thing.
+
+The whole thing was actually pretty performant and If i remember correctly i implemented some optimisations like culling thought that could be wrong. I think i could push it to 600fps on a very bad school laptop when i uncapped frames so that worked nicely
